@@ -1,0 +1,160 @@
+body * {
+    /*for early visualization*/
+    /* outline: 1px dotted red; */
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+
+.btn {
+    margin-top: 5px;
+    padding: 3px 7px;
+    font-size: 14pt;
+    border: 2px solid black;
+    box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* ### SMALLER COMPONENTS ################################################################################## */
+
+.divider {
+    display: inline-block;
+    width: 1000px;
+    border-bottom: 2px solid black;
+}
+
+.customHorizontalDivider
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.medDivider {
+    display: inline-block;
+    width: 500px;
+    border-bottom: 2px solid black;
+}
+
+.vDivider {
+    display: inline-block;
+    width: 2px;
+    height: 275px;
+    background-color: black;
+}
+
+/* ### MODIFIERS ########################################################################################### */
+
+.block {
+    display: block;
+}
+
+.ilBlock {
+    display: inline-block;
+}
+
+.noPadding {
+    padding: 0px;
+}
+
+.vTop {
+    vertical-align: top;
+}
+
+.vMid {
+    vertical-align: middle;
+}
+
+.vBot {
+    vertical-align: bottom;
+}
+
+.hLeft {
+    text-align: left;
+}
+
+.hCenter {
+    text-align: center;
+}
+
+.hRight {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* ### MISC MODIFIERS ###################################################################################### */
+
+/* ### BACKGROUND COLORS ### */
+
+.redBG {
+    background-color: red;
+}
+
+/* ### FONT SIZES ### */
+
+.fs14 {
+    font-size: 14pt;
+}
+
+.fs18 {
+    font-size: 18pt;
+}
+
+.fs22 {
+    font-size: 22pt;
+}
+
+/* ### MARGINS ### */
+
+.tab {
+    margin-left: 40px
+}
+
+.marTop15 {
+    margin-top: 15px;
+}
+
+.marTop30 {
+    margin-top: 30px;
+}
+
+.marBot30 {
+    margin-bottom: 30px;
+}
+
+.marLeft30 {
+    margin-left: 30px;
+}
+
+.marLeft50 {
+    margin-left: 50px;
+}
+
+.marRight30 {
+    margin-right: 30px;
+}
+
+/* ### WIDTHS ### */
+
+.w1000 {
+    width: 1000px;
+}
+
