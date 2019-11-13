@@ -53,11 +53,13 @@ app.set('views', __dirname + '/views');
 
 // index
 // GET: Retrieve all Tasks
-app.get('/', (req, res) => {
+// app.get('/', (req, res) => {
+app.get('/allTasks', (req, res) => {
     Task.find()
         .then(tasks => res.json(tasks))
         .catch(err => res.json(err));
 });
+
 
 // GET: Retrieve a Task by ID
 app.get('/tasks/:id', (req, res) => {
